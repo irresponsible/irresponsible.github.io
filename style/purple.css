@@ -1,0 +1,78 @@
+html {
+  background-color: #000;
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+
+  max-width: 800px;
+  padding: 5px 5px;
+  background-color: #171022;
+  box-shadow: 0px 0px 2px #89098e,
+              0px 0px 20px #38033b;
+}
+
+div#heading-panel {
+  color: #ffffff;
+}
+
+div#heading-panel:after {
+  content: ".";
+  display: block;
+  height: 2px;
+  width: 100%;
+  clear: both;
+  background: repeating-linear-gradient(
+    30deg,
+    #ff8d05,
+    #fff 3px,
+    #ff8d05 6px,
+    #fff 6px
+  );
+  box-shadow: 0px 0px 1px #043d0b,
+              0px 2px 2px #043d0b,
+              0px 3px 3px #043d0b,
+              0px 4px 4px #043d0b;
+  margin-bottom: 10px;
+}
+
+div#heading-panel h1 {
+  font-family: 'Gentium Basic', serif;
+  font-size: 60px;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 5px;
+
+  text-shadow: 
+    2px 0px 1px #043d0b,
+    2px 2px 1px #043d0b,
+    0px 2px 1px #043d0b,
+    -2px 2px 1px #043d0b,
+    -2px 0px 1px #043d0b,
+    -2px -2px 1px #043d0b,
+    0px -2px 1px #043d0b,
+    2px -2px 1px #043d0b;
+}
+
+div#heading-panel h2 {
+  font-family: 'Gentium Basic', serif;
+  display: table-cell;
+  vertical-align: bottom;
+  font-style: italic;
+  float: right;
+  margin: 2px;
+  text-shadow: 
+    0px 0px 10px #89098e;
+}
+
+div#content {
+  background-color: #ffffff;
+  min-height: 60px;
+  font-family: 'Gentium Basic', serif;
+  padding: 10px;
+}

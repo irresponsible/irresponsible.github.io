@@ -81,14 +81,6 @@ div#heading-panel h2 {
 
 div#content {
   background-color: #f7f4f9;
-  background: repeating-linear-gradient(
-    135deg,
-    #ffffff,
-    #ffffff 5px,
-    #f7f4f9 11px,
-    #f7f4f9 14px,
-    #ffffff 16px
-  );
   min-height: 60px;
   font-family: 'Gentium Basic', serif;
   padding: 10px;

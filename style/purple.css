@@ -31,9 +31,8 @@ div#heading-panel:after {
     #fff 6px
   );
   box-shadow: 0px 0px 1px #043d0b,
-              0px 2px 2px #043d0b,
-              0px 3px 3px #043d0b,
-              0px 4px 4px #043d0b;
+              0px 2px 1px #043d0b,
+              0px 3px 1px #043d0b;
   margin-bottom: 10px;
 }
 

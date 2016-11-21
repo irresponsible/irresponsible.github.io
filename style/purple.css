@@ -1,5 +1,14 @@
 html {
   background-color: #120012;
+  background: repeating-linear-gradient(
+    45deg,
+    #120012,
+    #120012 5px,
+    #171022 11px,
+    #271032 14px,
+    #901032 17px
+  );
+
 }
 
 body {

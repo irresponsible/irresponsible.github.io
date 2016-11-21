@@ -1,14 +1,14 @@
 html {
-  background-color: #120012;
-  background: repeating-linear-gradient(
-    45deg,
-    #120012,
-    #120012 5px,
-    #171022 11px,
-    #171032 14px,
-    #201032 15px
-  );
+  background-color: #d0b8e3;
 
+  background-image:
+    radial-gradient(circle at 100% 150%, #d0b8e3 24%, white 25%, white 28%, #d0b8e3 29%, #d0b8e3 36%, white 36%, white 40%, transparent 40%, transparent),
+radial-gradient(circle at 0    150%, #d0b8e3 24%, white 25%, white 28%, #d0b8e3 29%, #d0b8e3 36%, white 36%, white 40%, transparent 40%, transparent),
+radial-gradient(circle at 50%  100%, white 10%, #d0b8e3 11%, #d0b8e3 23%, white 24%, white 30%, #d0b8e3 31%, #d0b8e3 43%, white 44%, white 50%, #d0b8e3 51%, #d0b8e3 63%, white 64%, white 71%, transparent 71%, transparent),
+radial-gradient(circle at 100% 50%, white 5%, #d0b8e3 6%, #d0b8e3 15%, white 16%, white 20%, #d0b8e3 21%, #d0b8e3 30%, white 31%, white 35%, #d0b8e3 36%, #d0b8e3 45%, white 46%, white 49%, transparent 50%, transparent),
+radial-gradient(circle at 0    50%, white 5%, #d0b8e3 6%, #d0b8e3 15%, white 16%, white 20%, #d0b8e3 21%, #d0b8e3 30%, white 31%, white 35%, #d0b8e3 36%, #d0b8e3 45%, white 46%, white 49%, transparent 50%, transparent);
+;
+  background-size:100px 50px;
 }
 
 body {

@@ -1,14 +1,14 @@
 html {
-  background-color: #d0b8e3;
-
+  background-color: #3d2c66;
   background-image:
-    radial-gradient(circle at 100% 150%, #d0b8e3 24%, white 25%, white 28%, #d0b8e3 29%, #d0b8e3 36%, white 36%, white 40%, transparent 40%, transparent),
-radial-gradient(circle at 0    150%, #d0b8e3 24%, white 25%, white 28%, #d0b8e3 29%, #d0b8e3 36%, white 36%, white 40%, transparent 40%, transparent),
-radial-gradient(circle at 50%  100%, white 10%, #d0b8e3 11%, #d0b8e3 23%, white 24%, white 30%, #d0b8e3 31%, #d0b8e3 43%, white 44%, white 50%, #d0b8e3 51%, #d0b8e3 63%, white 64%, white 71%, transparent 71%, transparent),
-radial-gradient(circle at 100% 50%, white 5%, #d0b8e3 6%, #d0b8e3 15%, white 16%, white 20%, #d0b8e3 21%, #d0b8e3 30%, white 31%, white 35%, #d0b8e3 36%, #d0b8e3 45%, white 46%, white 49%, transparent 50%, transparent),
-radial-gradient(circle at 0    50%, white 5%, #d0b8e3 6%, #d0b8e3 15%, white 16%, white 20%, #d0b8e3 21%, #d0b8e3 30%, white 31%, white 35%, #d0b8e3 36%, #d0b8e3 45%, white 46%, white 49%, transparent 50%, transparent);
-;
-  background-size:100px 50px;
+    linear-gradient(30deg,  #514266 12%, transparent 12.5%, transparent 87%, #514266 87.5%, #514266),
+    linear-gradient(150deg, #514266 12%, transparent 12.5%, transparent 87%, #514266 87.5%, #514266),
+    linear-gradient(30deg,  #514266 12%, transparent 12.5%, transparent 87%, #514266 87.5%, #514266),
+    linear-gradient(150deg, #514266 12%, transparent 12.5%, transparent 87%, #514266 87.5%, #514266),
+    linear-gradient(60deg,  #9189aa 25%, transparent 25.5%, transparent 75%, #9189aa 75%,   #9189aa),
+    linear-gradient(60deg,  #9189aa 25%, transparent 25.5%, transparent 75%, #9189aa 75%,   #9189aa);
+  background-size: 40px 70px;
+  background-position: 0 0, 0 0, 20px 35px, 20px 35px, 0 0, 20px 35px;
 }
 
 body {

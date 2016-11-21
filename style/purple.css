@@ -76,3 +76,15 @@ div#content {
   font-family: 'Gentium Basic', serif;
   padding: 10px;
 }
+
+span#bat {
+  background-image: url("../images/superbat.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+  display: block;
+  position: fixed;
+  left: 60%;
+  top: 5%;
+}

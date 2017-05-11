@@ -1,3 +1,6 @@
+html, body {
+ font-family: 'Gentium Basic', serif;
+}
 html {
   background-color: #3d2c66;
   background-image:
@@ -14,59 +17,29 @@ html {
 body {
   margin-left: auto;
   margin-right: auto;
-
-  max-width: 800px;
-  padding: 5px 5px;
+  max-width: calc(100% - 100px);
+  padding: 0 5px;
   background-color: #171022;
   box-shadow: 0px 0px 2px #89098e,
               0px 0px 20px #38033b;
 }
 
 div#heading-panel {
-  width: -webkit-min-content;
-  width: -moz-min-content;
-  width: min-content;
-  height: -webkit-min-content;
-  height: -moz-min-content;
-  height: min-content;
-
-  margin-top: 0px;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
   color: #ffffff;
 }
-
-div#heading-panel:after {
-  content: ".";
-  display: block;
-  height: 2px;
-  width: 100%;
-  clear: both;
-  background: repeating-linear-gradient(
-    30deg,
-    #ff8d05,
-    #fff 3px,
-    #ff8d05 6px,
-    #fff 6px
-  );
-  box-shadow: 0px 0px 1px #043d0b,
-              0px 2px 1px #043d0b,
-              0px 3px 1px #043d0b;
-  margin-bottom: 10px;
+h1, h2 {
+  letter-spacing: 1px;
 }
-
-div#heading-panel h1 {
-  font-family: 'Gentium Basic', serif;
-  font-size: 80px;
-  width: -webkit-min-content;
-  width: -moz-min-content;
-  width: min-content;
-  height: -webkit-min-content;
-  height: -moz-min-content;
-  height: min-content;
-  margin: 5px;
-
-  text-shadow: 
+h1 {
+  display: inline-block;
+  font-size: 36px;
+  margin: 0 20px;
+  line-height: 60px;
+  text-shadow:
     2px 0px 1px #043d0b,
     2px 2px 1px #043d0b,
     0px 2px 1px #043d0b,
@@ -76,36 +49,80 @@ div#heading-panel h1 {
     0px -2px 1px #043d0b,
     2px -2px 1px #043d0b;
 }
-
-div#heading-panel h2 {
-  font-family: 'Gentium Basic', serif;
-  font-size: 25px;
-  display: table-cell;
-  vertical-align: bottom;
-  font-style: italic;
-  float: right;
-  margin: 2px;
-  margin-top: -25px;
-  text-shadow: 
-    0px 0px 10px #89098e;
+h2 {
+  display: block;
+  padding: 0 20px;
+  line-height: 50px;
+  margin: 0;
+  background-color: #3d2c66;
+  color: #171022;
+  text-shadow:
+    2px 0px 1px #9189aa,
+    2px 2px 1px #9189aa,
+    0px 2px 1px #9189aa,
+    -2px 2px 1px #9189aa,
+    -2px 0px 1px #9189aa,
+    -2px -2px 1px #9189aa,
+    0px -2px 1px #9189aa,
+    2px -2px 1px #9189aa;
 }
-
+nav#top {
+  display: inline-block;
+  margin: 0 20px;
+}
+nav#top ul, nav#top li {
+  display: inline;
+  list-style: none;
+}
+nav#top a {
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 5px;
+  vertical-align: middle;
+  text-shadow:
+    2px 0px 1px #043d0b,
+    2px 2px 1px #043d0b,
+    0px 2px 1px #043d0b,
+    -2px 2px 1px #043d0b,
+    -2px 0px 1px #043d0b,
+    -2px -2px 1px #043d0b,
+    0px -2px 1px #043d0b,
+    2px -2px 1px #043d0b;
+}
+nav#top a:hover {
+  color: #9189aa;
+}
 div#content {
   background-color: #f7f4f9;
   min-height: 60px;
-  font-family: 'Gentium Basic', serif;
+}
+div#content section {
   padding: 10px;
 }
-
-span#bat {
-  background-image: url("../images/superbat.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  width: 50px;
-  height: 50px;
-  display: block;
-  position: fixed;
-  float: left;
-  margin-top: -70px;
-  margin-left: 365px;
+table {
+  margin-bottom: 20px;
+}
+table, th, td {
+  border: 1px solid #9189aa;
+  border-collapse: collapse;
+}
+th {
+  color: #fff;
+  padding: 5px;
+}
+table thead.category th {
+  background-color: #171022;
+}
+table thead.columns th {
+  background-color: #3d2c66;
+}
+table td {
+  padding: 5px;
+}
+th h3 {
+  font-size: 20px;
+  line-height: 22px;
+  margin: 0;
 }

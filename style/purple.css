@@ -23,6 +23,9 @@ body {
   box-shadow: 0px 0px 2px #89098e,
               0px 0px 20px #38033b;
 }
+body, a {
+  color: #171022;
+}
 
 div#heading-panel {
   display: flex;
@@ -55,16 +58,9 @@ h2 {
   line-height: 50px;
   margin: 0;
   background-color: #3d2c66;
-  color: #171022;
-  text-shadow:
-    2px 0px 1px #9189aa,
-    2px 2px 1px #9189aa,
-    0px 2px 1px #9189aa,
-    -2px 2px 1px #9189aa,
-    -2px 0px 1px #9189aa,
-    -2px -2px 1px #9189aa,
-    0px -2px 1px #9189aa,
-    2px -2px 1px #9189aa;
+}
+h2 a {
+  color: #fff;
 }
 nav#top {
   display: inline-block;
@@ -125,4 +121,11 @@ th h3 {
   font-size: 20px;
   line-height: 22px;
   margin: 0;
+}
+td.title {
+  text-align: center;
+  padding: 5px;
+}
+td.title a {
+  color: #171022;
 }

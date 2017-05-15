@@ -120,6 +120,7 @@ div#content {
   min-height: 60px;
 }
 div#content section {
+  background-color: #fff;
   padding: 10px;
 }
 table {
